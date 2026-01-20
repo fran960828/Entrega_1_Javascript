@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2933;
+  line-height: 1.6;
+  padding: 40px 20px;
+}
+
+/* Contenedor visual centrado */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Título principal */
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #111827;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 12px;
+}
+
+/* Lista de ejercicios */
+ul.main-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+/* Elementos de la lista */
+.main-list li {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.main-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Enlaces */
+.main-list a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #1d4ed8;
+  font-weight: 500;
+}
+
+.main-list a:hover {
+  text-decoration: underline;
+}
+
+

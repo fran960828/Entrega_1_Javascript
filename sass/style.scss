@@ -1,0 +1,42 @@
+@use "./pages/pages" as *;
+@use "settings" as *;
+// Ejercicio Calculadora
+div.entrada__numero {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+div.operaciones {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+#resultado {
+  margin-left: 30px;
+}
+// ejercicio contraseña
+div.password {
+  margin: 20px;
+}
+p.new__password {
+  margin: 20px;
+}
+// Ejercicio LocalStorage
+.localStorage {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap:40px;
+  ul li{
+    display: flex;
+    vertical-align: middle;
+    gap:20px
+  }
+  
+}

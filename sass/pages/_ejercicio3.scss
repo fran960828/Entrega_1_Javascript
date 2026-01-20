@@ -1,0 +1,91 @@
+
+/* Título */
+h1.title-3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* Textarea */
+textarea.ejercicio-3 {
+  width: 100%;
+  resize: vertical;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+textarea.ejercicio-3:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* Botón Agregar */
+#btn {
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+#btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Lista */
+#list {
+  list-style: none;
+  margin-top: 24px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Elementos dinámicos */
+.dinamicItem {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* Texto del li */
+.dinamicList span {
+  flex: 1;
+  font-size: 1rem;
+  color: #374151;
+  word-break: break-word;
+}
+
+/* Botón eliminar */
+.eliminar {
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #ef4444;
+  color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+.eliminar:hover {
+  background-color: #dc2626;
+}

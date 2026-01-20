@@ -1,0 +1,71 @@
+
+
+/* Título */
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #111827;
+}
+
+/* Entradas de números */
+.entrada__numero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.entrada__numero input {
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.entrada__numero input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+/* Botones de operaciones */
+.operaciones {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.operaciones button {
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.operaciones button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Área de resultado */
+#resultado {
+  width: 100%;
+  min-height: 80px;
+  resize: none;
+  padding: 10px 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background-color: #f9fafb;
+  color: #111827;
+}

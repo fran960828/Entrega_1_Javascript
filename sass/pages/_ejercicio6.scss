@@ -1,0 +1,51 @@
+/* Título */
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* Temporizador */
+#timer {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+  color: #1d4ed8;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Contenedor de botones */
+.btns-time {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Botones */
+.btns-time button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.btns-time button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* Estados opcionales (para usar con JS) */
+.btns-time button.activo {
+  background-color: #16a34a; /* verde */
+}
+
+.btns-time button.detener {
+  background-color: #ef4444; /* rojo */
+}

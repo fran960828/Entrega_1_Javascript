@@ -1,0 +1,25 @@
+/* Título principal */
+.title-1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111827;
+  transition: color 0.3s ease; /* para animación al cambiar color */
+}
+
+/* Botón */
+.ejercicio-1 {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1d4ed8; /* azul inicial */
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.ejercicio-1:hover {
+  transform: translateY(-2px);
+  background-color: #2563eb; /* azul más claro al pasar el mouse */
+}
