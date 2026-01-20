@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
+  base: '/Entrega_1_Javascript/',
   // Definimos la raíz de los archivos de entrada si es necesario
   build: {
     rollupOptions: {
