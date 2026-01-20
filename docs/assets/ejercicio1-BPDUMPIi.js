@@ -1,0 +1,1 @@
+import"./style-BEj0HLdD.js";let e=document.createElement("button");e.innerText="Cambiar de Color";e.classList.add("ejercicio-1");document.body.appendChild(e);e.addEventListener("click",()=>{let t=Math.floor(Math.random()*256),o=Math.floor(Math.random()*256),r=Math.floor(Math.random()*256);document.body.style.backgroundColor=`rgb(${t},${o},${r})`});

@@ -1,0 +1,1 @@
+import"./style-BEj0HLdD.js";const e=document.getElementById("text"),r=document.getElementById("caracteres"),s=document.getElementById("palabras");e.addEventListener("input",()=>{const t=e.value.trim(),a=t.length,n=t===""?0:t.split(/\s+/).length;r.textContent=`Número de caracteres: ${a}`,s.textContent=`Número de palabras: ${n}`});

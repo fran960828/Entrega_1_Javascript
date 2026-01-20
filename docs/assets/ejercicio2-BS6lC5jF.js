@@ -1,0 +1,1 @@
+import"./style-BEj0HLdD.js";let e=document.createElement("button");e.innerText="Contador de Clicks";e.classList.add("ejercicio-2");document.body.appendChild(e);let t=document.createElement("p"),d=0;t.innerHTML=`Número de clicks: ${d}`;t.classList.add("ejercicio-2");document.body.appendChild(t);e.addEventListener("click",()=>{d+=1,t.innerHTML=`Número de clicks: ${d}`});

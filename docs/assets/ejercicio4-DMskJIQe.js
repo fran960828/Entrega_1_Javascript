@@ -1,0 +1,1 @@
+import"./style-BEj0HLdD.js";const e=document.getElementById("filtro"),s=document.getElementById("lista"),i=s.getElementsByTagName("li");e.addEventListener("input",()=>{const n=e.value.toLowerCase();for(let t of i){const o=t.textContent.toLowerCase();t.style.display=o.includes(n)?"block":"none"}});
